@@ -86,13 +86,6 @@ export function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center space-x-4">
-            <a
-              href="tel:+447924195426"
-              className="flex items-center text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-space-grotesk"
-            >
-              <Phone className="w-4 h-4 mr-2" />
-              +44 7924 195 426
-            </a>
             <button
               onClick={() => handleNavigation("/contact")}
               className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white font-orbitron font-semibold px-6 py-2 rounded-lg neon-purple transition-all duration-300 hover:scale-105"
